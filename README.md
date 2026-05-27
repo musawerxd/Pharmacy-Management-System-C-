@@ -62,13 +62,13 @@ Built as a **BSCS 4th Semester Final Project** to demonstrate real-world C# and 
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|---|---|
-| C# / .NET Framework | Core language and runtime |
-| Windows Forms (WinForms) | Desktop UI |
-| Microsoft SQL Server | Database |
-| ADO.NET | Database connectivity |
-| Visual Studio 2019/2022 | IDE |
+| Technology               | Purpose                   |
+| ------------------------ | ------------------------- |
+| C# / .NET Framework      | Core language and runtime |
+| Windows Forms (WinForms) | Desktop UI                |
+| Microsoft SQL Server     | Database                  |
+| ADO.NET                  | Database connectivity     |
+| Visual Studio 2019/2022  | IDE                       |
 
 ---
 
@@ -116,15 +116,15 @@ Press `F5` or click the Start button in Visual Studio.
 
 The project uses a **Microsoft SQL Server** database named `PharmacyDB` with 3 tables:
 
-| Table | Description |
-|---|---|
-| `Medicines` | Stores medicine records — name, category, quantity, price, and expiry date |
-| `Sales` | Records each sale — medicine name, quantity sold, total price, and sale date |
-| `Users` | Stores login credentials for system access |
+| Table       | Description                                                                  |
+| ----------- | ---------------------------------------------------------------------------- |
+| `Medicines` | Stores medicine records — name, category, quantity, price, and expiry date   |
+| `Sales`     | Records each sale — medicine name, quantity sold, total price, and sale date |
+| `Users`     | Stores login credentials for system access                                   |
 
 The database comes pre-loaded with **50 medicines** across categories including Tablets, Capsules, Syrups, Injections, Inhalers, and more.
 
-> The full SQL setup script (create tables + sample data) is included in the repository as `database.sql`. Run it in SSMS to get started.
+> The full SQL setup script (create tables + sample data) is included in the repository at `Query/PharmacySQL.txt`. Open it in SSMS and run it to get started.
 
 ---
 
